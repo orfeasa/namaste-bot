@@ -1,0 +1,22 @@
+{
+  "user_id": "YOUR_USER_ID",
+  "view": {
+    "type": "home",
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "Hi, I'm a bot :party-robot_face:"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "I live in <https://github.com/orfeasa/namaste-bot|`github.com/orfeasa/namaste-bot`> where you can find documentation about how I work, as well as my source code."
+        }
+      }
+    ]
+  }
+}
