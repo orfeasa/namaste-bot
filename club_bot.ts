@@ -163,7 +163,7 @@ function announceArchiveParticipants(event) {
     taggedParticipants.join(', ');
 
   if (waitlist.length > 0) {
-    announcementMessage += '\nWaitlist: ' + taggedWaitlist.join(', ') + '.';
+    announcementMessage += '\nWaitlist: ' + taggedWaitlist.join(', ') + ' .';
   } else {
     const noOfEmptySpots = MAX_PARTICIPANTS - participants.length;
     announcementMessage += ` (${noOfEmptySpots} empty ${noOfEmptySpots === 1 ? 'spot' : 'spots'}, no waitlist).`;
